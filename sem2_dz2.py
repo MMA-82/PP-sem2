@@ -11,7 +11,6 @@ drop2 = input('Введите вторую дробь вида a/b: ')
 ch1, zn1 = map(int, drop1.split('/'))
 ch2, zn2 = map(int, drop2.split('/'))
 
-
 f_drop1 = fractions.Fraction(ch1, zn1)
 f_drop2 = fractions.Fraction(ch2, zn2)
 
