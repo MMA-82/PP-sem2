@@ -20,6 +20,6 @@ while n > base16:
 result16 += str(n)
 #result16 = result16 + 'x0'
 if n_negative:
-        result16 = result16 + '-'
+        result16 = result16 + 'x0-'
 print('Результат совпадает с оригиналом: ',result16[::-1])
 
